@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: pink;
+}
+body{
+    background-color: rgb(238, 211, 231);
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(violet,darkslateblue);
+    border-radius: 10px;
+   
+
+}
+.card__img{
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/364236159_1477600686375750_5178244909976295719_n.jpg?stp=dst-jpg_s206x206&_nc_cat=107&cb=99be929b-59f725be&ccb=1-7&_nc_sid=aee45a&_nc_ohc=rgEwPqc4cC8AX-eBJZE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSKc_IDf1aeGTFJqvOIbJI8-IyAMu-y__ef7m0E5Br8iA&oe=64F46BBC);
+
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    border-radius: 50% ;
+    position: relative;
+    top: 50px;
+    left: 153px;
+    border: 3px solid rgb(116, 47, 106) ;
+}
+.card__img:hover{
+    background-image: url(https://antimatter.vn/wp-content/uploads/2022/04/buon-anh-meo-khoc-cute.jpg);
+    
+    
+
+}
+
+h3{
+    position: relative;
+    top: 60px;
+    left: 150px;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 15px;
+}
+h3:hover{
+    color: rgb(205, 105, 220);
+}
+.social{
+   font-size: 20px;
+   position: relative;
+   top: 70px;
+   display: flex;
+   justify-content: center;
+
+}
+.social a{
+    margin: 15px;
+    color: rgb(227, 161, 227);
+    
+    
+    
+    
+}
+button{
+    position: relative;
+    top: 90px;
+    left: 150px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid blanchedalmond;
+    background-color: rgb(219, 179, 229);
+    border-radius: 10px;
+    transition: 0.5s;
+     
+}
+button:hover{
+    background: linear-gradient(grey,rgb(232, 126, 232));
+    color: white;
+    
+    
+}
+p{
+    font-size: 12px;
+    font-style: inherit;
+    color: rgb(55, 55, 127);
+}
+.footer{
+    text-align: center;
+    margin: 30% 10% 
+    
+}
